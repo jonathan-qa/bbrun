@@ -2,7 +2,7 @@
 
 `bbrun` is a command line tool to execute [Bitbucket Pipelines](https://confluence.atlassian.com/bitbucket/configure-bitbucket-pipelines-yml-792298910.html) locally.
 
-[![Build Status](https://github.com/mserranom/bbrun/workflows/Node%20CI/badge.svg)](https://github.com/mserranom/bbrun/actions?query=workflow%3A%22Node+CI%22)[![npm version](https://badge.fury.io/js/bbrun.svg)](https://badge.fury.io/js/bbrun)
+[![Build Status](https://travis-ci.org/mserranom/bbrun.svg?branch=master)](https://travis-ci.org/mserranom/bbrun) [![npm version](https://badge.fury.io/js/bbrun.svg)](https://badge.fury.io/js/bbrun)
 
 ## Install
 
@@ -47,7 +47,6 @@ Check the [examples](https://github.com/mserranom/bbrun/tree/master/examples) an
       --env (-e),  define environment variables for execution
       --dry-run (-d),  performs dry run, printing the docker command
       --interactive (-i), starts an interactive bash session in the container
-      --ignore-folder (-f), adds the folder as an empty volume (useful for forcing pipeline to install packages etc)
       --help, prints this very guide
 
   Examples:

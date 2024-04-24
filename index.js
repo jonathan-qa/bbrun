@@ -16,7 +16,6 @@ Options
     --work-dir (-w), docker working directory, defaults to "ws"
     --dry-run (-d), performs dry run, printing the docker command
     --interactive (-i), starts an interactive bash session in the container
-    --ignore-folder (-if), maps the folder to an empty folder (useful for forcing package managers to reinstall)
     --help, prints this very guide
 
 Examples:
@@ -58,10 +57,6 @@ Examples:
       "dry-run": {
         type: "boolean",
         alias: "d"
-      },
-      "ignore-folder": {
-        type: "string",
-        alias: "f"
       }
     }
   }
